@@ -1,5 +1,4 @@
 
-
     a{
         text-decoration: none;
         color: white;
@@ -169,7 +168,7 @@
     }
     
     .btn-light{
-        border: 1px solid rgba(227, 217, 217, 0.605);
+        border: 2px solid rgba(227, 217, 217, 0.605);
         background-color:rgba(255, 255, 255, 0.016);
         color:white;
         font-size: large;
@@ -227,6 +226,7 @@
     #Menu ul li:last-child{
         color: darkgreen;
     }
+    
     #Menu:first-child{
         color: white;
     }
