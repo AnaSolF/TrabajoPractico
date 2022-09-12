@@ -1,0 +1,272 @@
+
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    li{
+        list-style-type: none;
+    }
+    
+    #sec1{
+        display: flex;
+        font-size: larger;
+        flex-direction: row; 
+        justify-content: flex-end; 
+    }
+    
+    .navbar{
+        background-color: rgb(47, 47, 49);
+        display: flex; 
+        padding: 10px;
+        align-items: flex-start;
+        width: auto;
+    }
+    
+    
+    #box{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #TituloNav{
+        padding-top: 10px;
+    }
+    
+    #Menu li {
+    color: rgb(165, 154, 154);
+    }
+    
+    #Menu li:first-of-type{
+        color: white;
+    }
+    
+    #Menu li:last-child{
+        color:green;
+    }
+    
+    .card-img-overlay{
+        margin-left: 50%;
+        margin-right: 50px;
+        margin-top: 30%;
+        text-align: right;
+        justify-content:center;
+    }
+    
+    #sec2{
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+        background-color: white;
+        text-align: center; 
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 190px;
+    
+    }
+    
+    .card-body{
+        text-align: left;
+    }
+    
+    #sec3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(55, 55, 56);
+    }
+    
+    #p2{
+        width: 500px;
+        float: right;
+        margin-left: 50px;
+        padding-top: 30px;
+        text-align: justify;
+        align-self:flex-start;
+        color: white;
+    }
+    
+    
+    .container3{
+        display: flex;
+        align-items: flex-start;
+        flex-direction:row;
+    }
+    
+   
+     .card-img1{
+        filter:opacity(0.5);
+     }
+    
+    
+    h2, h5{
+        color: white;
+    }
+    
+    #sec4{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin-top: auto;
+        padding-top: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .row {
+        margin-left: 150px;
+        margin-bottom: 15px;
+    }
+        
+    #Parrafo{
+       padding-top: 30px;
+       font-size: medium;
+    }
+    
+    .btnAmarillo{
+        border-style:hidden;
+        border-radius: 5px;
+        font-size: xx-small;
+        background-color: rgb(206, 173, 41);
+    }
+    
+    .btnChico{
+        border-style:hidden;
+        border-radius: 5px;
+        font-size: xx-small;
+        color: white;
+        background-color: #3b8b90
+    }
+
+    .btnChico:hover,
+    .btnGris:hover,
+    .btnRojo:hover,
+    .btnAmarillo:hover{
+        transform: scale(2);
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .btnGris{
+        border-style:hidden;
+        border-radius: 5px;
+        font-size: xx-small;
+        color: white;
+        background-color:grey;
+    }
+    
+    .btnRojo{
+        border-style:hidden;
+        border-radius: 5px;
+        font-size: xx-small;
+        color: white;
+        background-color:red;
+    }
+    
+    .btn-light{
+        border: 1px solid rgba(227, 217, 217, 0.605);
+        background-color:rgba(255, 255, 255, 0.016);
+        color:white;
+        font-size: large;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .btn-success{
+        background-color:rgb(12, 136, 12);
+        border-radius: 5px;
+        border-color: rgb(12, 136, 12);
+        color:white;
+        font-size: large;
+        padding: 10px;
+        margin-right: 12px;
+    }
+
+    .btn-success:hover{
+        background-color: white;
+        color: green;
+    }
+    
+    #Coment{
+        margin-top: 10px;
+        width: 40%; 
+        height: 120px;
+        padding: 12px 20px;
+    }
+    
+    input{
+        width: 20%;
+    }
+    
+    #PF{
+    font-size: xx-small;
+    padding-right: 490px;
+    }
+    
+    #btnFinal{
+        background-color:rgb(12, 136, 12);
+        border-radius: 5px;
+        border-color: rgb(12, 136, 12);
+        color:white;
+        font-size: large;
+        width:40% ;
+        align-self: center;
+    }
+    
+    #Menu li {
+        display: inline;
+        padding-right: 20px;
+        list-style-type: none;
+    }
+    
+    #Menu ul li:last-child{
+        color: darkgreen;
+    }
+    #Menu:first-child{
+        color: white;
+    }
+    
+    #TUL{
+        color: black;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction:row;
+        padding-top: 10px;
+        margin-top: 30px;
+        background-color: rgb(19, 69, 98);
+    }
+    
+    #foo{
+        padding-left: 200px;
+    }
+    
+    #foo li{
+        display: inline-flex;
+        list-style-type: none;
+    }
+    
+    #foo li a{
+        list-style-type: none;
+        padding: 40px;
+        font-size: large;
+    }
+    
+    
+    
+    #foo li a:hover{
+        color: green;
+    }
+
+
+
+
+
+
+
