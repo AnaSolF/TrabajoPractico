@@ -1,48 +1,69 @@
-    a{
-        text-decoration: none;
-        color: white;
+
+body,
+a{
+    text-decoration: none;
+   
+    list-style-type: none;
+}
+   
+    header{
+        background-color: rgb(56, 61, 72);
+       display: flex;
+       flex-direction: row;
+
     }
-    
-    li{
-        list-style-type: none;
+
+    .container{
+        background-color: rgb(56, 61, 72) ;
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        width: 100%;
+        justify-content: space-between;
+        
+
     }
       
-    #sec1{
-        display: flex;
-        font-size: larger;
-        flex-direction: row; 
-        justify-content: flex-end; 
-    }
-    
-    .navbar{
-        background-color: rgb(47, 47, 49);
-        display: flex; 
-        padding: 10px;
-        align-items: flex-start;
-        width: auto;
-    }
     
     
+ 
     #box{
         display: flex;
         flex-direction: row;
+        width: 25%;
+        padding-right: 3%;
     }
     
     #TituloNav{
-        padding-top: 10px;
+        padding-top: 19px;
+        color: white;
+
+    }
+
+    
+    #Menu li:last-child{
+        color: rgb(4, 115, 4);
+    }
+    
+    #Menu li:first-child{
+        color: white;
+    }
+
+    #Menu{
+        padding-top: 25px;
+        padding-left: 30px;
+        padding-bottom: 20px;
     }
     
     #Menu li {
-    color: rgb(165, 154, 154);
+    color: whitesmoke;
+    font-size: 20px;
+    display: inline;
+    padding-right: 20px;
+    align-items: flex-end;
+    list-style-type: none;
     }
     
-    #Menu li:first-of-type{
-        color: white;
-    }
-    
-    #Menu li:last-child{
-        color:green;
-    }
     
     .card-img-overlay{
         margin-left: 50%;
@@ -216,19 +237,6 @@
         align-self: center;
     }
     
-    #Menu li {
-        display: inline;
-        padding-right: 20px;
-        list-style-type: none;
-    }
-    
-    #Menu ul li:last-child{
-        color: darkgreen;
-    }
-    
-    #Menu:first-child{
-        color: white;
-    }
     
     #TUL{
         color: black;
@@ -255,13 +263,15 @@
         list-style-type: none;
         padding: 40px;
         font-size: large;
+        color: white;
     }
-    
     
     
     #foo li a:hover{
-        color: green;
+        color: black;
     }
+
+
 
 
 
