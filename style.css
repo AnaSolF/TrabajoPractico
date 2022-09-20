@@ -58,6 +58,8 @@ a{
     align-items: flex-end;
     list-style-type: none;
     }
+
+    
     
     .card bg-dark text-white{
         display: flex;
