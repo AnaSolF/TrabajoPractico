@@ -5,11 +5,12 @@ a{
 }
    
     header{
-        background-color: rgb(56, 61, 72);
+       background-color: rgb(56, 61, 72);
        display: flex;
        flex-direction: row;
        padding-bottom: 20px;
        padding-top: 20px;
+       height: 113px;
     }
 
     .container{
@@ -25,8 +26,12 @@ a{
     #box{
         display: flex;
         flex-direction: row;
-        width: 30%;
+        width: 40%;
         padding-right: 10%;
+    }
+
+    #EstiloBarra{
+        width: 100%;
     }
     
     #TituloNav{
@@ -59,7 +64,9 @@ a{
     list-style-type: none;
     }
 
-    
+    sec1{
+        height: 785px;
+    }
     
     .card bg-dark text-white{
         display: flex;
@@ -86,6 +93,7 @@ a{
 
 
     #sec2{
+        height: 832px;
         padding-top: 0;
         display: flex;
         flex-direction:column;
@@ -145,6 +153,7 @@ a{
     }
     
     #sec4{
+        height: 474px;
         display: flex;
         flex-direction: column;
         background-color: white;
@@ -156,7 +165,6 @@ a{
     
    
     #Parrafo{
-       padding-top: 30px;
        font-size: medium;
     }
     
@@ -241,24 +249,28 @@ a{
     }
     
     #btnFinal{
-        background-color:rgb(12, 136, 12);
+        background-color:rgb(43, 195, 43);
         border-radius: 5px;
-        border-color: rgb(12, 136, 12);
+        border-color: rgb(43, 195, 43);
         color:white;
         font-size: large;
         width:40% ;
         align-self: center;
         margin-bottom: 30px;
+        padding: 10px;
     }
     
     
     #TUL{
         color: black;
     }
+
+    footer{
+        height: 120px;
+    }
     
     #foo{
-        padding-top: 30px;
-        padding-bottom: 5px;
+        height: 120px;
         text-align: center;
         background-color: rgb(21, 66, 92);
     }
