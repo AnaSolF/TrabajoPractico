@@ -92,6 +92,7 @@ a{
         margin-left: 50%;
         font-size: large;
         margin-right: 5%;
+        margin-top: auto;
     }
 
     .buttons{
@@ -99,6 +100,7 @@ a{
     }
 
     #sec2{
+        height: 900px;
         display: flex;
         flex-direction:column;
         align-items:center;
@@ -106,13 +108,19 @@ a{
         background-color: white;
         text-align: center;
     }
-    
+
+    #Parrafo{
+        font-size: medium;
+       text-align: center;
+       margin-top: 150px;
+     }
+
     .row {
         display: flex;
         justify-content:center;
         padding-bottom: 34px;
-        
     }
+
 
     .card-body{
         text-align: left;
@@ -126,8 +134,6 @@ a{
     }
     
     #p2{
-        width: 500px;
-        float: right;
         margin-left: 50px;
         padding-top: 30px;
         text-align: justify;
@@ -147,6 +153,7 @@ a{
     
      h2{
         color: black;
+        text-align: center;
      }
     
     h5{
@@ -165,10 +172,6 @@ a{
         justify-content: center;
     }
     
-   
-    #Parrafo{
-       font-size: medium;
-    }
     
     .btnAmarillo{
         border-style:hidden;
