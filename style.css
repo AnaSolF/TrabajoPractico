@@ -1,4 +1,4 @@
-body,
+body
 a{
     text-decoration: none;
     list-style-type: none;
@@ -40,31 +40,38 @@ a{
 
     }
 
+    #Menu{
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+
+    #Menu li {
+        color: antiquewhite;
+        font-size: 20px;
+        display: inline;
+        padding-right: 20px;
+        align-items: flex-end;
+        list-style-type: none;
+        }
+
+    #Menu li {
+    cursor: pointer;
+    }  
+
+    #Menu li:first-child{
+        color: white;
+    }
 
     #Menu li:last-child{
         color: rgb(4, 115, 4);
     }
     
-    #Menu li:first-child{
+    #Menu li:hover{
         color: white;
     }
 
-    #Menu{
-        padding-top: 25px;
-        padding-left: 30px;
-        padding-bottom: 20px;
-    }
-    
-    #Menu li {
-    color: whitesmoke;
-    font-size: 20px;
-    display: inline;
-    padding-right: 20px;
-    align-items: flex-end;
-    list-style-type: none;
-    }
-
-    sec1{
+    #sec1{
         height: 785px;
     }
     
@@ -94,21 +101,20 @@ a{
 
     #sec2{
         height: 832px;
-        padding-top: 0;
         display: flex;
         flex-direction:column;
         align-items:center;
         justify-content: center;
         background-color: white;
-        text-align: center; 
+        text-align: center;
     }
     
     .row {
         display: flex;
         justify-content: center;
-        align-items: center;
         padding-bottom: 10px;
     }
+
     
     .card-body{
         text-align: left;
@@ -218,10 +224,9 @@ a{
     }
     
     .btn-success{
-        background-color:rgb(12, 136, 12);
-        border-radius: 5px;
-        border-color: rgb(12, 136, 12);
         color:white;
+        border-radius: 5px;
+        border-color: 2px solid darkolivegreen;
         font-size: large;
         padding: 10px;
         margin-right: 12px;
@@ -229,7 +234,7 @@ a{
 
     .btn-success:hover{
         background-color: white;
-        color: green;
+        color: greenyellow;
     }
     
     #Coment{
@@ -289,6 +294,6 @@ a{
     color: white;
 }
 
-
-
-    
+#foo li a:hover{
+    color: greenyellow;
+}
