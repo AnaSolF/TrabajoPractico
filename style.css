@@ -317,6 +317,11 @@ footer {
         margin: 3px;
     }
 
+    .btn-success,
+    #btnFinal{
+        font-size: small;
+    }
+
 }     
 
 @media(max-width:400px){
@@ -346,11 +351,6 @@ footer {
         margin-top: 0%;
     }
 
-    #p1{
-        width: 100%;
-    }
-
-
     #foo li a{
         padding: 3px;
         font-size:xx-small;
@@ -378,6 +378,8 @@ footer {
         font-size: 10px;  
         text-align: left;
         width: fit-content;
+        padding-right: 35px;
+        padding-left: 0%;
         
     }
 
