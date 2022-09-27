@@ -98,9 +98,7 @@ a{
         margin-left: 75%;
     }
 
-
     #sec2{
-        height: 832px;
         display: flex;
         flex-direction:column;
         align-items:center;
@@ -111,11 +109,11 @@ a{
     
     .row {
         display: flex;
-        justify-content: center;
-        padding-bottom: 10px;
+        justify-content:center;
+        padding-bottom: 34px;
+        
     }
 
-    
     .card-body{
         text-align: left;
     }
@@ -137,14 +135,12 @@ a{
         color: white;
     }
     
-    
     .container3{
         display: flex;
         align-items: flex-start;
         flex-direction:row;
     }
     
-   
      .card-img{
         filter:opacity(0.5);
      }
