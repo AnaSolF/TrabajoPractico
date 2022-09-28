@@ -185,7 +185,7 @@ h2, h5{
 
 .btn-light{
     border: 1px solid rgba(227, 217, 217, 0.605);
-    background-color:rgba(255, 255, 255, 0.016);
+    background-color:rgba(205, 200, 200, 0.016);
     color:white;
     font-size: large;
     padding: 10px;
@@ -193,9 +193,9 @@ h2, h5{
 }
 
 .btn-success{
-    background-color:rgb(12, 136, 12);
+    background-color:rgb(106, 168, 15);
     border-radius: 5px;
-    border-color: rgb(12, 136, 12);
+    border-color: rrgb(106, 168, 15);
     color:white;
     font-size: large;
     padding: 10px;
@@ -225,13 +225,14 @@ padding-right: 490px;
 }
 
 #btnFinal{
-    background-color:greenyellow;
+    background-color:rgb(106, 168, 15);
     border-radius: 5px;
     padding: 10px;
-    border-color: greenyellow;
+    border-color: rgb(106, 168, 15);
     color:white;
     font-size: large;
     width:915px ;
+    font-size: x-large;
     align-self: center;
 }
 
@@ -336,13 +337,15 @@ footer {
     }
 
     .row row-cols-1 row-cols-md-3 g-4{
-        margin: 3px;
+        max-width: fit-content;
     }
 
     .btn-success,
     #btnFinal{
         font-size: small;
     }
+
+    
 
 }     
 
