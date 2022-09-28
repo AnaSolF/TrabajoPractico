@@ -113,7 +113,6 @@ padding-bottom: 25px;
     height: auto;
 }
 
-
  #fondo{
     filter: opacity(0.5);
  }
@@ -160,7 +159,6 @@ h2, h5{
 
 .btnChico:hover,
 .btnGris:hover,
-.btnRojo:hover,
 .btnAmarillo:hover{
     transform: scale(2);
     margin-right: 20px;
@@ -175,16 +173,8 @@ h2, h5{
     background-color:grey;
 }
 
-.btnRojo{
-    border-style:hidden;
-    border-radius: 5px;
-    font-size: xx-small;
-    color: white;
-    background-color:red;
-}
-
 .btn-light{
-    border: 1px solid rgba(227, 217, 217, 0.605);
+    border: 1px solid white;
     background-color:rgba(205, 200, 200, 0.016);
     color:white;
     font-size: large;
@@ -195,7 +185,7 @@ h2, h5{
 .btn-success{
     background-color:rgb(106, 168, 15);
     border-radius: 5px;
-    border-color: rrgb(106, 168, 15);
+    border-color: rgb(106, 168, 15);
     color:white;
     font-size: large;
     padding: 10px;
@@ -277,8 +267,6 @@ footer {
     font-size: large;
 }
 
-
-
 #foo li a:hover{
     color: green;
 }
@@ -344,8 +332,6 @@ footer {
     #btnFinal{
         font-size: small;
     }
-
-    
 
 }     
 
