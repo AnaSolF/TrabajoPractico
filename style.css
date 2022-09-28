@@ -283,7 +283,7 @@ footer {
     color: green;
 }
 
-@media(max-width:1115px){
+@media(min-width:1115px){
 
     header
     #sec1, 
