@@ -292,7 +292,7 @@ footer {
         justify-content:flex-start;
         align-content:stretch;
         flex-direction:column;
-        font-size: small;
+        font-size: 16px;
         text-align: start;
         margin-top: 0%;
         margin-left: 0%;
@@ -349,7 +349,7 @@ footer {
 
 }     
 
-@media(max-width:400px){
+@media(min-width:360px){
 
     .navbar{
         height: auto;
