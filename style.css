@@ -283,7 +283,7 @@ footer {
     color: green;
 }
 
-@media(min-width:1115px){
+@media only screen and (min-width: 500px) and (max-width: 1115px){
 
     header
     #sec1, 
@@ -349,7 +349,7 @@ footer {
 
 }     
 
-@media(min-width:360px){
+@media only screen and (min-width: 360px) and (max-width: 500px){
 
     .navbar{
         height: auto;
@@ -361,17 +361,20 @@ footer {
         justify-content:flex-start;
         align-content:stretch;
         flex-direction:column;
-        font-size: xx-small;
+        font-size: small;
         text-align: start;
         margin-top: 0%;
         margin-left: 0%;
         width: 100%;  
     }
+    .buttons{
+       float: inline-start;
+    }
 
     h2{
         display: flex;
         justify-content: center;  
-        font-size: xx-small;
+        font-size: 12px;
         margin-top: 0%;
     }
 
@@ -392,6 +395,10 @@ footer {
         padding-left: 13px;
         padding: 3px;
         font-size:xx-small;
+    }
+
+    #Menu li:hover{
+    font-size: 14px;
     }
 
     .card-text{
