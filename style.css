@@ -34,7 +34,6 @@ li{
 }
 
 #TituloNav{
-    padding-top: 10px;
     color: white;
 }
 
@@ -63,6 +62,10 @@ font-size: large;
 
 .card bg-dark text-white{
     height: 785px;
+}
+
+#p1{
+padding-bottom: 25px;
 }
 
 #sec2{
@@ -209,10 +212,11 @@ h2, h5{
     width: 40%; 
     height: 120px;
     padding: 12px 20px;
+    width: 915px;
 }
 
 input{
-    width: 20%;
+    width: 28%;
 }
 
 #PF{
@@ -221,12 +225,13 @@ padding-right: 490px;
 }
 
 #btnFinal{
-    background-color:rgb(12, 136, 12);
+    background-color:greenyellow;
     border-radius: 5px;
-    border-color: rgb(12, 136, 12);
+    padding: 10px;
+    border-color: greenyellow;
     color:white;
     font-size: large;
-    width:40% ;
+    width:915px ;
     align-self: center;
 }
 
@@ -357,8 +362,7 @@ footer {
         text-align: start;
         margin-top: 0%;
         margin-left: 0%;
-        width: 100%;
-        
+        width: 100%;  
     }
 
     h2{
@@ -380,7 +384,7 @@ footer {
     }
 
     #Menu li{
-        display: flex;
+        display: inline-flex;
         flex-direction: row;
         padding-left: 13px;
         padding: 3px;
@@ -404,5 +408,10 @@ footer {
     #btnFinal
     .btn-success{
         font-size: small;
+    }
+
+    #btnFinal,
+    #Coment{
+        width: auto;
     }
 }
