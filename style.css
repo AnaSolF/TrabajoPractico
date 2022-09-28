@@ -157,8 +157,17 @@ h2, h5{
     background-color: #3b8b90
 }
 
+.btnRojo{
+    border-style:hidden;
+    border-radius: 5px;
+    font-size: xx-small;
+    color: white;
+    background-color:rgb(126, 12, 12);
+}
+
 .btnChico:hover,
 .btnGris:hover,
+.btnRojo:hover,
 .btnAmarillo:hover{
     transform: scale(2);
     margin-right: 20px;
