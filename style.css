@@ -192,9 +192,9 @@ h2, h5{
 }
 
 .btn-success{
-    background-color:rgb(106, 168, 15);
+    background-color:rgb(131, 169, 75);
     border-radius: 5px;
-    border-color: rgb(106, 168, 15);
+    border-color: rgb(131, 169, 75);
     color:white;
     font-size: large;
     padding: 10px;
@@ -203,7 +203,7 @@ h2, h5{
 
 .btn-success:hover{
     background-color: white;
-    color: green;
+    color: rgb(131, 169, 75);
 }
 
 #Coment{
@@ -224,10 +224,10 @@ padding-right: 490px;
 }
 
 #btnFinal{
-    background-color:rgb(106, 168, 15);
+    background-color:rgb(131, 169, 75);
     border-radius: 5px;
     padding: 10px;
-    border-color: rgb(106, 168, 15);
+    border-color: rgb(131, 169, 75);
     color:white;
     font-size: large;
     width:915px ;
@@ -481,12 +481,13 @@ color: black;
     padding-left: 330px;
     padding-top: 8px;
     padding-bottom: 8px; 
-    background-color:  rgb(197, 236, 158);   
+    background-color:  rgb(131, 169, 75);  
     border-radius: 5px;
-    border-color:  rgb(197, 236, 158);  
+    border-color:  rgb(131, 169, 75);
     margin-right: 20px;
     margin-left: 20px;
     text-align: center;
+    color: white;
 }
 
 #btnRes{
@@ -494,9 +495,9 @@ padding-right: 250px;
 padding-left: 300px;
 padding-top: 8px;
 padding-bottom: 8px; 
-background-color: rgb(197, 236, 158);  
+background-color: rgb(131, 169, 75);
 border-radius: 5px;
-border-color:  rgb(197, 236, 158);   
+border-color:  rgb(131, 169, 75);   
 margin-right: 20px;
-
+color: white;
 }
