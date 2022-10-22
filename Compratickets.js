@@ -11,8 +11,6 @@ document.getElementById("btnRes").addEventListener("click", function() {
 
 document.getElementById("btnBorrar").addEventListener("click", function() {
     document.getElementById("PrecioTotal").innerHTML = borrar();
-    let cantidad = document.getElementById("IngreseCantidad").innerHTML = borrar();
-    let categoriaDescuento = document.getElementById("inputState").value = borrar();
 });
 
 //Funciones
@@ -42,14 +40,15 @@ function PrecioDescuento() {
 }// Cálculo del descuento por categoría;
 
 function PrecioT() {
-    let PTot = cantidadPrecio() - PrecioDescuento();
-    return PTot;
+    let categoriaDescuento = document.getElementById("inputState").value;
+    if (categoriaDescuento === "" || categoriaDescuento === "Elije una opción...") {
+        return ("Ingrese una categoría.");
+    } else {
+        let PTot = cantidadPrecio() - PrecioDescuento();
+        return  ("Total: " + "$" + PTot);
+    } 
 }// Cálculo del precio total, restando la cantidad de tickets total menos el descuento por categoría.
 
 function borrar() {
-    return document.getElementById("PrecioTotal").innerHTML = "";
+    window.location.reload();
 }
-function clean() {
-    return document.getElementById("inputState").value = document.getElementById("inputState");
-}
-

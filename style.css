@@ -242,10 +242,10 @@ padding-right: 490px;
     list-style-type: none;
 }
 
-#Menu ul li:last-child{
-    color: darkgreen;
+#Menu li a:last-child{
+    color: rgb(13, 131, 13);
 }
-#Menu:first-child{
+#Menu:first-child a{
     color: white;
 }
 
@@ -277,7 +277,7 @@ footer {
 }
 
 #foo li a:hover{
-    color: green;
+    color: rgb(13, 131, 13);
 }
 
 @media only screen and (min-width: 500px) and (max-width: 1115px){
@@ -481,9 +481,9 @@ color: black;
     padding-left: 330px;
     padding-top: 8px;
     padding-bottom: 8px; 
-    background-color:  rgb(131, 169, 75);  
+    background-color:  rgb(162, 236, 51);  
     border-radius: 5px;
-    border-color:  rgb(131, 169, 75);
+    border-color:  rgb(162, 236, 51);
     margin-right: 20px;
     margin-left: 20px;
     text-align: center;
@@ -495,9 +495,9 @@ padding-right: 250px;
 padding-left: 300px;
 padding-top: 8px;
 padding-bottom: 8px; 
-background-color: rgb(131, 169, 75);
+background-color: rgb(162, 236, 51);
 border-radius: 5px;
-border-color:  rgb(131, 169, 75);   
+border-color:  rgb(162, 236, 51);   
 margin-right: 20px;
 color: white;
 }
