@@ -45,7 +45,7 @@ function PrecioT() {
         return ("Ingrese una categoría.");
     } else {
         let PTot = cantidadPrecio() - PrecioDescuento();
-        return  ("Total: " + "$" + PTot);
+        return  ("Total a pagar: " + "$" + PTot);
     } 
 }// Cálculo del precio total, restando la cantidad de tickets total menos el descuento por categoría.
 
