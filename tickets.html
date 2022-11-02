@@ -95,7 +95,7 @@
             </div>
 
             <div class="col">
-              <input type="text" class="form-control" placeholder="Cantidad" aria-label="Cantidad" id="IngreseCantidad"><!--SELECCIONA CANTIDAD DE TICKET- Obtener variable cantidad-->
+              <input type="number" min="0" pattern="^[0-9]+" class="form-control" placeholder="Cantidad" aria-label="Cantidad" id="IngreseCantidad"><!--SELECCIONA CANTIDAD DE TICKET- Obtener variable cantidad-->
             </div>
 
             <div class="col"> 
@@ -110,21 +110,27 @@
     </div>
     <div class="row">
         <div class="col">
-    <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-        <label for="floatingTextarea" id="PrecioTotal">Total a pagar: $</label>
-    </div>
+    
     </div>
 </div>
-<div class="row">
-            <div class="col">
-                <div id="BtnResume">
-            <button id="btnBorrar">Borrar</button><!--BORRA LOS CAMPOS-->
-            <button id="btnRes">Resumen</button><!--EJECUTA LA OPERACION COMPRA-->
-            </div>
-        </div>
-    </div>
 
+
+<div class="row">
+  <div class="col">
+<div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+  <label for="floatingTextarea" id="PrecioTotal">Total a pagar: $</label>
+</div>
+</div>
+</div>
+<div class="row">
+      <div class="col">
+          <div id="BtnResume">
+      <button id="btnBorrar">Borrar</button><!--BORRA LOS CAMPOS-->
+      <button id="btnRes">Resumen</button><!--EJECUTA LA OPERACION COMPRA-->
+      </div>
+  </div>
+</div>
     
 <footer>
   <nav >

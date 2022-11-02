@@ -466,6 +466,7 @@ color: black;
 
 #floatingTextarea{
     background-color:rgb(191, 223, 243) ;
+    display: flex;
 }
 
 #BtnResume{
@@ -488,6 +489,7 @@ color: black;
     margin-left: 20px;
     text-align: center;
     color: white;
+    font-weight: bold;
 }
 
 #btnRes{
@@ -500,4 +502,11 @@ border-radius: 5px;
 border-color:  rgb(162, 236, 51);   
 margin-right: 20px;
 color: white;
+font-weight: bold;
+}
+
+#PrecioTotal{
+    font-size: large;
+    text-align: start;
+    font-weight: bold;
 }
